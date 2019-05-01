@@ -1,7 +1,7 @@
 # Site settings
 title: Bearded QA
 description: 'no bullshit allowed'
-url: 'http://joshgerdes.com/jekyll-uno'
+url: 'https://beardedqa.github.io'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
@@ -9,8 +9,7 @@ baseurl: ''
 author:
   name: 'Tomasz Wojciechowski'
   email: bearded.qa@gmail.com
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
+  github_username:  beardedqa
   linkedin_username:  beardedqa
 
 defaults:
