@@ -1,7 +1,7 @@
 # Site settings
 title: Bearded QA
 description: 'no bullshit allowed'
-url: 'https://beardedqa.github.io'
+url: 'http://bearded.qa'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
