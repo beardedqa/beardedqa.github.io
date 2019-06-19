@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  „Quality is not an act, it is a habit” – Aristotle
+title:  Quality is not an act, it is a habit
 date:   2019-06-08 12:00:00
 categories: [soft]
 tags: [qa, testing, qualityassurance]
@@ -33,6 +33,6 @@ That’s not an accident that coding and testing are coming together. With conti
 Release process looks slightly different in each company but main points are usually the same – deploy code to higher environment(s) and validate if integration with other teams’ code went fine. 
 Code is live, validation passed, but it still doesn’t mean that working solution was released. It’s impossible to check everything, so a team should monitor if and what effects their release may have to live environment. It’s up to the team to decide what and when should be monitored. 
 As mentioned before, quality assurance is process contains all actions needed to produce good quality software but these actions don’t have to be strictly connected with technical work. That means if your colleague is doing something critical for the project and he needs coffee, you should grab a mug and ask if it should be with sugar. And I really mean it! It will not only help you (as a team) deliver what needs to be done, but also build connection between people and good atmosphere what is very important ingredient to build quality oriented team.
-As Aristotle said, **“Quality is not an act, it is a habit”** and as soon as we become creatures of that habit, we’ll make our life easier. 
+**“Quality is not an act, it is a habit”** and as soon as we become creatures of that habit, we’ll make our life easier. 
 
 
