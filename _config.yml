@@ -1,43 +1,42 @@
-# Site settings
 title: Bearded QA
-description: 'no bullshit allowed'
-url: 'http://bearded.qa'
-baseurl: ''
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+author: Bearded QA
+email: your-email@domain.com # email for form submission, you also have to change it in _js/scripts.js
+description: > # this means to ignore newlines until "baseurl:"
+  'no bullshit allowed'.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://bearded.qa" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  beardedqa
+instagram_username: bearded.qa
+social:
+  name: Tomasz Wojciechowski
+  links:
+    - https://www.linkedin.com/in/beardedqa/
+    - https://github.com/beardedqa
 
-author:
-  name: 'Tomasz Wojciechowski'
-  email: bearded.qa@gmail.com
-  github_username:  beardedqa
-  linkedin_username:  beardedqa
-
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
-
+disqus:
+  shortname: beardedqa
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
 markdown: kramdown
-highlighter: rouge
+highlighter: rouge # or pygments or null
+theme: jekyll-sleek
+exclude:
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.png
 
-sass:
-    sass_dir: _sass
-    style: compressed
+include: ['_pages']
+permalink: /:title/
 
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
+compress_html:
+  clippings: all
 
-plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
-
-theme: jekyll-theme-slate
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
